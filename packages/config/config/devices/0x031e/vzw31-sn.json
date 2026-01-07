@@ -897,7 +897,7 @@
 		},
 		{
 			"#": "240",
-			"$if": "firmwareVersion < 2.0",
+			"$if": "firmwareVersion <= 2.0",
 			"label": "Factory Reset",
 			"description": "Set to 120935937 to perform a factory reset",
 			"valueSize": 4,
